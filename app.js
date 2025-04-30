@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 const mongoose = require('mongoose');
-mongoose.connect("mongodb://localhost:27017/todo");
+mongoose.connect("mongodb+srv://sarbjotsingh1804:Sarbjot1804@@@cluster0.c1dxyqx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 const trySchema = new mongoose.Schema({
     name: String,
 });
